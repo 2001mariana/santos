@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.saints-page {
+  border: 2px solid blue;
+}
+
+.saints-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.saint-card {
+  border: 1px solid red;
+  margin: 10px;
+  padding: 10px;
+}
+
+.saint-card img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
